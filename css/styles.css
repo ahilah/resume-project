@@ -1,26 +1,82 @@
 body {
-    background: #F6F6FA;
-    /* зовнішні відступи */
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
+  background: #f6f6fa;
+  /* зовнішні відступи */
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
 
-    /* padding: 40px 40px 40px 40px; замінює код зверху*/
+  /* padding: 40px 40px 40px 40px; замінює код зверху*/
 
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  text-align: justify;
 }
 
 .wrapper {
-    background: #FFF;
-    display: flex;
-    flex-direction: row-reverse; /* розміщення контенту */
+  background: #fff;
+  display: flex;
+  flex-direction: row-reverse; /* розміщення контенту */
 }
 
+/* Main Content */
+
 .main-content {
-    padding-left: 88px;
-    padding-top: 80px;
-    padding-right: 40px;
-    padding-bottom: 80px;
-    box-sizing: border-box; /* контейнер не розширюється від контенту */
+  padding-left: 40px;
+  padding-top: 54px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box; /* контейнер не розширюється від контенту */
+}
+
+/* Sidebar */
+
+.sidebar {
+  background: #cedadc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 360px;
+}
+
+.sidebar-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Contacts */
+
+.contacts-type {
+  color: #161d2a;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  margin-right: 8px;
+}
+
+.contacts-link {
+  color: #002D1D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.contacts-element {
+    margin-top: 0px;
+    margin-bottom: 8px;
 }

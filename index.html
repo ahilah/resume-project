@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- назва на вкладці у браузері --->
     <title>My resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <!-- Wrapper -->
     <div class="wrapper">
       <!-- Main content -->
-      <div class="main-contenet">
+      <div class="main-content">
         <!-- My info -->
         <div>
           <!-- Ці теги унікальні на весь сайт. Без повторень -->
@@ -121,10 +124,12 @@
                 led me to make informed decisions about the curriculum and
                 teaching methods.
               </li>
+
               <li>
                 Ensure that students receive instruction that aligns with
                 current industry standards and academic requirements.
               </li>
+
               <li>
                 My students consistently achieved higher test scores and
                 improved their math skills significantly
@@ -135,10 +140,12 @@
 
         <!-- Education -->
         <div>
+          <h3>Education</h3>
+
           <h4>Lviv Polytechnic National University</h4>
           <h5>Computer Science</h5>
           <p>September 2021 - up to date | Ukraine</p>
-          <h3>Education</h3>
+
           <h4>Cisco</h4>
           <h5>Networking</h5>
           <p>February 2023 - May 2023 | Ukraine</p>
@@ -146,61 +153,64 @@
       </div>
 
       <!-- Sidebar -->
-      <aside>
+      <aside class="sidebar">
         <img
           src="photo/IMG_20230810_144620.jpg"
           alt="My photo"
-          width="240"
-          height="240"
+          width="360"
+          height="360"
         />
-        <!-- Contacts -->
-        <div>
-          <h3>Contacts</h3>
-          <p>C: <a href="tel:+380508572925">+38 050 827 29 25</a></p>
-          <!-- TEL!! Для можливості виклику прописувати в посиланні -->
 
-          <p>
-            E:
-            <a href="mailto: anastasiia.hileta@gmail.com"
-              >anastasiia.hileta@gmail.com</a
-            >
-          </p>
-        </div>
+        <div class="sidebar-content">
+          <!-- Contacts -->
+          <div>
+            <h3 class="contacts-title">Contacts</h3>
+            <!-- TEL!! Для можливості виклику прописувати в посиланні -->
+            <p class="contacts-element"><span class="contacts-type">C:</span>
+              <a class="contacts-link" href="tel:+380508572925">+38 050 827 29 25</a></p>
+            <p class="contacts-element">
+              <span class="contacts-type">E:</span>
+              <a class="contacts-link" href="mailto: anastasiia.hileta@gmail.com"
+                >anastasiia.hileta@gmail.com</a
+              >
+            </p>
+          </div>
 
-        <!-- Tech Skills -->
-        <div>
-          <h3>Tech Skills</h3>
-          <ul>
-            <h4>REACT</h4>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>JSON</li>
-            <h4>Java Core</h4>
-            <li>JavaFX</li>
-            <li>JDBC</li>
-            <h4>Databases</h4>
-            <li>MSSQL</li>
-            <li>MongoDB</li>
-            <h4>Additional Skills</h4>
-            <li>C/C++</li>
-            <li>Git/GitHub</li>
-          </ul>
-        </div>
+          <!-- Tech Skills -->
+          <div>
+            <h3>Tech Skills</h3>
+            <ul>
+              <h4>REACT</h4>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>JSON</li>
+              <h4>Java Core</h4>
+              <li>JavaFX</li>
+              <li>JDBC</li>
+              <h4>Databases</h4>
+              <li>MSSQL</li>
+              <li>MongoDB</li>
+              <h4>Additional Skills</h4>
+              <li>C/C++</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </div>
 
-        <!-- Soft Skills -->
-        <div>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>SCRUM</li>
-            <li>Agile</li>
-            <li>Waterfall</li>
-            <li>Teamwork</li>
-            <li>Time Management</li>
-            <li>Problem-Solving</li>
-            <li>Attention to Detail</li>
-            <li>Conflict Resolution</li>
-          </ul>
+          <!-- Soft Skills -->
+          <div>
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>SCRUM</li>
+              <li>Agile</li>
+              <li>Waterfall</li>
+              <li>Teamwork</li>
+              <li>Time Management</li>
+              <li>Problem-Solving</li>
+              <li>Attention to Detail</li>
+              <li>Conflict Resolution</li>
+            </ul>
+          </div>
         </div>
       </aside>
     </div>
