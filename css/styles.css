@@ -11,7 +11,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -21,6 +22,8 @@ p {
 }
 
 .wrapper {
+  width: 1200px;
+  margin: 0 auto;
   background: #fff;
   display: flex;
   flex-direction: row-reverse; /* розміщення контенту */
@@ -239,7 +242,8 @@ p {
 }
 
 .work-experience-period-separator {
-  color: #000;
+  color: #494949;
+  font-style: bold;
 }
 
 .work-experience-duties-list {
@@ -255,4 +259,45 @@ p {
 
 .work-experience-container {
   margin-bottom: 12px;
+}
+
+/* Education */
+
+.education-container {
+  margin-bottom: 10px;
+}
+
+.education {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.education-caption {
+  color: #1ac589;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-type {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-duration {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  margin-bottom: 8px;
 }
