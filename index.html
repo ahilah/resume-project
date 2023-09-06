@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="photo/favicon.png" type="image/x-icon">
+    <link rel="icon" href="photo/favicon.png" type="image/x-icon" />
   </head>
 
   <body>
@@ -21,11 +21,11 @@
       <!-- Main content -->
       <div class="main-content">
         <!-- My info -->
-        <div>
+        <div class="my-info">
           <!-- Ці теги унікальні на весь сайт. Без повторень -->
-          <h2>Back-End Developer</h2>
-          <h1>Anastasiia Hileta</h1>
-          <p>
+          <h2 class="my-profession">Back-End Developer</h2>
+          <h1 class="my-name">Anastasiia Hileta</h1>
+          <p class="my-description">
             Passionate computer science student-enjoyer with a strong foundation
             in Java. I am looking for a role where I can grow and learn from
             other experienced team members in software and website development
@@ -36,55 +36,74 @@
         </div>
 
         <!-- My projects -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
-            <li>
+        <div class="my-projects-container">
+          <h3 class="my-projects-title">Projects</h3>
+          <ol class="my-projects-list">
+            <li class="my-projects-item">
               <a
+                class="my-projects-item-link"
                 href="https://github.com/ahilah/music-store.git"
                 target="_blank"
               >
                 Music Store Website</a
               >
-              ............................................................. [
-              HTML5, CSS3, JavaScript, JSON ]
+              <span class="my-projects-item-tech"
+                >............................................................. [
+                HTML5, CSS3, JavaScript, JSON ]</span
+              >
             </li>
-            <li>
-              <a href="https://github.com/ahilah/store.git" target="_blank"
+            <li class="my-projects-item">
+              <a
+                class="my-projects-item-link"
+                href="https://github.com/ahilah/store.git"
+                target="_blank"
                 >Book Store Website</a
               >
-              .............................................................. [
-              HTML5, CSS3, JavaScript, JSON ]
+              <span class="my-projects-item-tech"
+                >..............................................................
+                [ HTML5, CSS3, JavaScript, JSON ]</span
+              >
             </li>
-            <li>
+            <li class="my-projects-item">
               <a
+                class="my-projects-item-link"
                 href="https://github.com/ahilah/course_work.git"
                 target="_blank"
                 >Mobile Network Management Desktop Application</a
               >
-              ........... [ Java, JavaFX, JDBC, JUnit, log4j, TestFX ]
+              <span class="my-projects-item-tech">
+                ........... [ Java, JavaFX, JDBC, JUnit, log4j, TestFX ]
+              </span>
             </li>
-            <li>
+            <li class="my-projects-item">
               <a
+                class="my-projects-item-link"
                 href="https://github.com/ahilah/droid-battles.git"
                 target="_blank"
                 >Droid Battles Console Game</a
               >
-              ............................................... [ Java Core ]
+              <span class="my-projects-item-tech">
+                ............................................... [ Java Core ]
+              </span>
             </li>
           </ol>
         </div>
 
         <!-- Work Experience -->
         <div>
-          <h3>Work Experience</h3>
+          <h3 class="work-experience-title">Work Experience</h3>
 
           <!-- Company 1 -->
-          <div>
-            <h4>Full-Stack Developer Freelance</h4>
-            <p>August 2023 - up to now | Ukraine</p>
-            <ul>
-              <li>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Full-Stack Developer <span class="company-name">Freelance</span>
+            </h4>
+            <p class="work-experience-period">
+              August 2023 - up to now
+              <span class="work-experience-period-separator">|</span> Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-list-item">
                 Joined a front-end skills improvement marathon
                 <a
                   href="https://www.edu.goit.global/uk/learn/17704478/11452717/roadmap#step=day2"
@@ -95,20 +114,26 @@
           </div>
 
           <!-- Company 2 -->
-          <div>
-            <h4>Back-End Developer in Lviv Polytechnic National University</h4>
-            <p>August 2023 - up to now | Ukraine</p>
-            <ul>
-              <li>Released team project of music store website.</li>
-              <li>Made website for book store.</li>
-              <li>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Back-End Developer in Lviv Polytechnic National University
+            </h4>
+            <p class="work-experience-period">August 2023 - up to now | Ukraine</p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-list-item">
+                Released team project of music store website.
+              </li>
+              <li class="work-experience-duties-list-item">
+                Made website for book store.
+              </li>
+              <li class="work-experience-duties-list-item">
                 Created mobile network management desktop application with GUI.
               </li>
-              <li>
+              <li class="work-experience-duties-list-item">
                 Developed many console programs include game of droid battles
                 and calculators for numeric methods/linear algebra.
               </li>
-              <li>
+              <li class="work-experience-duties-list-item">
                 Received a certificate for successfully completing the
                 Networking course from Cisco.
               </li>
@@ -116,22 +141,24 @@
           </div>
 
           <!-- Company 3 -->
-          <div>
-            <h4>Private Math Teacher Freelance</h4>
-            <p>September 2019 - August 2021 | Ukraine</p>
-            <ul>
-              <li>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Private Math Teacher Freelance
+            </h4>
+            <p class="work-experience-period">September 2019 - August 2021 | Ukraine</p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-list-item">
                 Deeply understand mathematics and computer science, which has
                 led me to make informed decisions about the curriculum and
                 teaching methods.
               </li>
 
-              <li>
+              <li class="work-experience-duties-list-item">
                 Ensure that students receive instruction that aligns with
                 current industry standards and academic requirements.
               </li>
 
-              <li>
+              <li class="work-experience-duties-list-item">
                 My students consistently achieved higher test scores and
                 improved their math skills significantly
               </li>

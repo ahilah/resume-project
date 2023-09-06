@@ -11,6 +11,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 p {
   text-align: justify;
 }
@@ -127,4 +132,127 @@ p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
+}
+
+/* Main Content */
+
+.my-profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px; /* 121.429% */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px; /* 122.222% */
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.my-description {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.my-info {
+  margin-bottom: 40px;
+}
+
+/* My Projects */
+
+.my-projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px; /* 122.727% */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-projects-item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+
+.my-projects-list {
+  padding-left: 16px;
+}
+
+.my-projects-item-link {
+  color: #1ac589;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  text-decoration-line: underline;
+}
+
+.my-projects-item-tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.my-projects-container {
+  margin-bottom: 40px;
+}
+
+/* Work Experience */
+
+.work-experience-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px; /* 122.727% */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work-experience-company {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.company-name {
+  color: #1ac589;
+}
+
+.work-experience-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  margin-bottom: 8px;
+}
+
+.work-experience-period-separator {
+  color: #000;
+}
+
+.work-experience-duties-list {
+  padding-left: 16px;
+}
+
+.work-experience-duties-list-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.work-experience-container {
+  margin-bottom: 12px;
 }
